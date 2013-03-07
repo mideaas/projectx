@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<VerticalLayout xmlns:tk="urn:package:com.vaadin.addon.touchkit.ui" xmlns="urn:package:com.vaadin.ui" xmlns:l="urn:vaadin:layout"
+height="100.0%" id="verticalLayout_1" immediate="false" margin="false" width="100.0%">
+<Button caption="Buttoni" height="-1px" id="button_1" immediate="false" width="-1px"/>
+</VerticalLayout>
+
