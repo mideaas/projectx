@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.arvue.apps</groupId>
-    <artifactId>project1</artifactId>
+    <artifactId>project4</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
 
@@ -32,6 +32,11 @@
 		</repository>
 	</repositories>
 	<dependencies>
+        <dependency>
+           <groupId>org.vaadin.addons</groupId>
+           <artifactId>ratingstars</artifactId>
+           <version>1.4</version>
+        </dependency>
 		<dependency>
 			<groupId>com.vaadin.addon</groupId>
 			<artifactId>vaadin-touchkit-agpl</artifactId>
