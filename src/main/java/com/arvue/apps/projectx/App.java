@@ -14,6 +14,8 @@ public class App extends TouchKitApplication {
     }
 
     public void onBrowserDetailsReady() {
-        main.setContent(new NavigationManager(new Main()));
+        Main view = new Main();
+        view.setSizeFull();
+        main.setContent(new NavigationManager(view));
     }
 }
