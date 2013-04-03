@@ -8,16 +8,16 @@
     </context-param>
     <servlet>
         <servlet-name>Vaadin Application Servlet</servlet-name>
-        <servlet-class>com.vaadin.addon.touchkit.server.TouchKitApplicationServlet</servlet-class>
+        <servlet-class>com.vaadin.addon.touchkit.server.TouchKitServlet</servlet-class>
         <init-param>
-            <description>Vaadin application class to start</description>
-            <param-name>application</param-name>
-            <param-value>com.arvue.apps.projectx.App</param-value>
+            <description>Vaadin UI class to start</description>
+            <param-name>ui</param-name>
+            <param-value>com.arvue.apps.project1.App</param-value>
         </init-param>
                 <init-param>
             <description>Application widgetset</description>
             <param-name>widgetset</param-name>
-            <param-value>com.arvue.apps.projectx.gwt.AppWidgetSet</param-value>
+            <param-value>com.arvue.apps.project1.gwt.AppWidgetSet</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>

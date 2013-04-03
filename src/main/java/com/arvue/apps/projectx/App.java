@@ -1,21 +1,17 @@
 package com.arvue.apps.projectx;
 
-import com.vaadin.addon.touchkit.ui.TouchKitWindow;
-import com.vaadin.addon.touchkit.ui.TouchKitApplication;
 import com.vaadin.addon.touchkit.ui.NavigationManager;
+import com.vaadin.server.VaadinRequest;
+import com.vaadin.ui.UI;
 
-public class App extends TouchKitApplication {
-
-    private TouchKitWindow main;
-
-    public void init() {
-        main = new TouchKitWindow();
-        setMainWindow(main);
-    }
-
-    public void onBrowserDetailsReady() {
-        Main view = new Main();
+@SuppressWarnings("serial")
+public class App extends UI {
+	
+	@Override
+	protected void init(VaadinRequest request) {
+		Main view = new Main();
         view.setSizeFull();
-        main.setContent(new NavigationManager(view));
-    }
+        setContent(new NavigationManager(view));
+        
+	}
 }

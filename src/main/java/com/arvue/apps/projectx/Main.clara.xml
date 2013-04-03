@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<tk:NavigationView xmlns:tk="urn:package:com.vaadin.addon.touchkit.ui" xmlns="urn:package:com.vaadin.ui" xmlns:l="urn:vaadin:layout" xmlns:a="urn:package:org.vaadin.teemu.ratingstars">
-<tk:NavigationBar height="-1px" id="navigationBar_1" immediate="false" width="100.0%"/>
-<VerticalLayout height="100.0%" id="verticalLayout_1" immediate="false" margin="false" width="100.0%">
-<Button caption="Button" height="-1px" id="button_1" immediate="false" width="-1px"/>
-<a:RatingStars id="value-field" l:componentAlignment="MIDDLE_CENTER" 
-        immediate="true" caption="Add-ons work too" />
-<Button caption="Button2" height="-1px" id="button_2" immediate="false" width="-1px"/>
-</VerticalLayout>
+<tk:NavigationView xmlns:tk="urn:import:com.vaadin.addon.touchkit.ui" xmlns="urn:import:com.vaadin.ui" xmlns:l="urn:vaadin:layout">
+  <VerticalLayout height="100.0%" id="verticalLayout_1">
+    <Button id="button_1" caption="Buttoni" />
+  </VerticalLayout>
 </tk:NavigationView>
+
