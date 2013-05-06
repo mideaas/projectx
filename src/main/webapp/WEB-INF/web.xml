@@ -24,22 +24,4 @@
         <servlet-name>Vaadin Application Servlet</servlet-name>
         <url-pattern>/*</url-pattern>
     </servlet-mapping>
-
-	<!-- Configure these is you need "fallback" application or non supported 
-		browsers -->
-<!-- 	
-	<init-param>
-		<description>
-			Vaadin fallback application class to start</description>
-		<param-name>fallbackApplication</param-name>
-		<param-value>com.vornitologist.VornitologistFallbackApplication</param-value>
-	</init-param>
-	<init-param>
-		<description>
-			Application widgetset</description>
-		<param-name>fallbackWidgetset</param-name>
-		<param-value>com.vaadin.terminal.gwt.DefaultWidgetSet</param-value>
-	</init-param>
--->  
-    
 </web-app>

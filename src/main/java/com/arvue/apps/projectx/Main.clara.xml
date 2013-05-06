@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<tk:NavigationView xmlns:tk="urn:import:com.vaadin.addon.touchkit.ui" xmlns="urn:import:com.vaadin.ui" xmlns:l="urn:vaadin:layout">
-  <VerticalLayout height="100.0%" id="verticalLayout_1">
-    <Button id="button_1" caption="Buttoni" />
-  </VerticalLayout>
-</tk:NavigationView>
-
+<VerticalLayout xmlns="urn:import:com.vaadin.ui" xmlns:tk="urn:import:com.vaadin.addon.touchkit.ui">
+    <Label id="label1" value="This is Main"/>
+    <tk:NavigationButton caption="Click here" id="button1"/>
+</VerticalLayout>
