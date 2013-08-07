@@ -1,11 +1,12 @@
 package com.arvue.apps.projectx;
 
-import org.vaadin.mideaas.MideaasNavigationView;
+import org.vaadin.mideaas.MideaasComponent;
 
-public class Main extends MideaasNavigationView {
+public class Main extends MideaasComponent {
 
     @Override
-    public void onBecomingVisible() {
-        super.onBecomingVisible();
+    public void attach() {
+        super.attach();
+        
     }
 }
