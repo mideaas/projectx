@@ -16,6 +16,8 @@ public class App extends UI {
 
     public static class MideaasController {
         public void componentCreated(NavigationView view) {}
+        
+        // jeje
     }
 
 }
